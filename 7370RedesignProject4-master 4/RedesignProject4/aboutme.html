@@ -14,13 +14,11 @@
     	<header>
     		<h1>About Me</h1>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="reading.html">Reading Class</a></li>
-                    <li><a href="creativewriting.html">Creative Writing Class
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a  href="gallery.html">Gallery</a></li></a></li>
-                </ul>
+                    <a href="index.html">Home</a>
+                    <a href="reading.html">Reading Class</a>
+                    <a href="creativewriting.html">Creative Writing Class</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a  href="gallery.html">Gallery</a>
         	</nav>
     	</header>
         <div class="col_wrap">
@@ -38,7 +36,7 @@
             <br/>
 <h2>Send e-mail to ssmith@ridgefield.k12.us:</h2>
 
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+<form name="myForm" action="mailto:someone@example.com" onsubmit="return validateForm()" method="post">
 Name:<br>
 <input type="text" name="name"><br>
 E-mail:<br>
